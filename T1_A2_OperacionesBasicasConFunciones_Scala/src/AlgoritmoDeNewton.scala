@@ -33,8 +33,15 @@ object AlgoritmoDeNewton {
   
     
   def main(args: Array[String]): Unit = {
-    raizCuadrada(2,1)
+    
+    print("Ingrese x: ")
+    val x = readInt()
+    println("Ingrese y: ")
+    val y = readInt()
+    
+    raizCuadrada(x, y)
     println("El resultado es: " + resultado)
+    
   }
   
 }
